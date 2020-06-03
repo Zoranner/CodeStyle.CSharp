@@ -183,17 +183,17 @@ dotnet_naming_rule.属性_should_be_大驼峰.severity = warning
 dotnet_naming_rule.属性_should_be_大驼峰.symbols = 属性
 dotnet_naming_rule.属性_should_be_大驼峰.style = 大驼峰
 
-dotnet_naming_rule.公开_受保护字段_should_be_大驼峰.severity = warning
-dotnet_naming_rule.公开_受保护字段_should_be_大驼峰.symbols = 公开_受保护字段
-dotnet_naming_rule.公开_受保护字段_should_be_大驼峰.style = 大驼峰
+dotnet_naming_rule.公开字段_should_be_大驼峰.severity = warning
+dotnet_naming_rule.公开字段_should_be_大驼峰.symbols = 公开字段
+dotnet_naming_rule.公开字段_should_be_大驼峰.style = 大驼峰
 
 dotnet_naming_rule.静态字段_should_be_大驼峰.severity = warning
 dotnet_naming_rule.静态字段_should_be_大驼峰.symbols = 静态字段
 dotnet_naming_rule.静态字段_should_be_大驼峰.style = 大驼峰
 
-dotnet_naming_rule.私有_内部字段_should_be_以___开头大驼峰.severity = warning
-dotnet_naming_rule.私有_内部字段_should_be_以___开头大驼峰.symbols = 私有_内部字段
-dotnet_naming_rule.私有_内部字段_should_be_以___开头大驼峰.style = 以___开头大驼峰
+dotnet_naming_rule.私有_内部_受保护字段_should_be_以___开头大驼峰.severity = warning
+dotnet_naming_rule.私有_内部_受保护字段_should_be_以___开头大驼峰.symbols = 私有_内部_受保护字段
+dotnet_naming_rule.私有_内部_受保护字段_should_be_以___开头大驼峰.style = 以___开头大驼峰
 
 dotnet_naming_rule.静态方法_should_be_大驼峰.severity = warning
 dotnet_naming_rule.静态方法_should_be_大驼峰.symbols = 静态方法
@@ -257,17 +257,17 @@ dotnet_naming_symbols.属性.applicable_kinds = property
 dotnet_naming_symbols.属性.applicable_accessibilities = public, internal, private, protected, protected_internal, private_protected
 dotnet_naming_symbols.属性.required_modifiers = 
 
-dotnet_naming_symbols.公开_受保护字段.applicable_kinds = field
-dotnet_naming_symbols.公开_受保护字段.applicable_accessibilities = public, protected
-dotnet_naming_symbols.公开_受保护字段.required_modifiers = 
+dotnet_naming_symbols.公开字段.applicable_kinds = field
+dotnet_naming_symbols.公开字段.applicable_accessibilities = public
+dotnet_naming_symbols.公开字段.required_modifiers = 
 
 dotnet_naming_symbols.静态字段.applicable_kinds = field
 dotnet_naming_symbols.静态字段.applicable_accessibilities = public, internal, private, protected, protected_internal, private_protected
 dotnet_naming_symbols.静态字段.required_modifiers = static
 
-dotnet_naming_symbols.私有_内部字段.applicable_kinds = field
-dotnet_naming_symbols.私有_内部字段.applicable_accessibilities = internal, private, private_protected
-dotnet_naming_symbols.私有_内部字段.required_modifiers = 
+dotnet_naming_symbols.私有_内部_受保护字段.applicable_kinds = field
+dotnet_naming_symbols.私有_内部_受保护字段.applicable_accessibilities = internal, private, protected, protected_internal, private_protected
+dotnet_naming_symbols.私有_内部_受保护字段.required_modifiers = 
 
 dotnet_naming_symbols.局部变量.applicable_kinds = local
 dotnet_naming_symbols.局部变量.applicable_accessibilities = local
