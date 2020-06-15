@@ -1,3 +1,3 @@
 # CodeStyle.CSharp
 
-This is a csharp **CodeStyle** visual studio config.
+This is a csharp **CodeStyle** config.
