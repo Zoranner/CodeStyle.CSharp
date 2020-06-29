@@ -159,69 +159,69 @@ csharp_preserve_single_line_statements = true
 
 # 命名规则
 
-dotnet_naming_rule.类名_should_be_大驼峰.severity = warning
-dotnet_naming_rule.类名_should_be_大驼峰.symbols = 类名
-dotnet_naming_rule.类名_should_be_大驼峰.style = 大驼峰
+dotnet_naming_rule.类名_should_be_帕斯卡.severity = warning
+dotnet_naming_rule.类名_should_be_帕斯卡.symbols = 类名
+dotnet_naming_rule.类名_should_be_帕斯卡.style = 帕斯卡
 
-dotnet_naming_rule.接口_should_be_以_i_开头.severity = warning
-dotnet_naming_rule.接口_should_be_以_i_开头.symbols = 接口
-dotnet_naming_rule.接口_should_be_以_i_开头.style = 以_i_开头
+dotnet_naming_rule.接口_should_be_以_i_开头帕斯卡.severity = warning
+dotnet_naming_rule.接口_should_be_以_i_开头帕斯卡.symbols = 接口
+dotnet_naming_rule.接口_should_be_以_i_开头帕斯卡.style = 以_i_开头帕斯卡
 
-dotnet_naming_rule.结构体_should_be_大驼峰.severity = warning
-dotnet_naming_rule.结构体_should_be_大驼峰.symbols = 结构体
-dotnet_naming_rule.结构体_should_be_大驼峰.style = 大驼峰
+dotnet_naming_rule.结构体_should_be_帕斯卡.severity = warning
+dotnet_naming_rule.结构体_should_be_帕斯卡.symbols = 结构体
+dotnet_naming_rule.结构体_should_be_帕斯卡.style = 帕斯卡
 
-dotnet_naming_rule.枚举_should_be_大驼峰.severity = warning
-dotnet_naming_rule.枚举_should_be_大驼峰.symbols = 枚举
-dotnet_naming_rule.枚举_should_be_大驼峰.style = 大驼峰
+dotnet_naming_rule.枚举_should_be_帕斯卡.severity = warning
+dotnet_naming_rule.枚举_should_be_帕斯卡.symbols = 枚举
+dotnet_naming_rule.枚举_should_be_帕斯卡.style = 帕斯卡
 
-dotnet_naming_rule.方法_should_be_大驼峰.severity = warning
-dotnet_naming_rule.方法_should_be_大驼峰.symbols = 方法
-dotnet_naming_rule.方法_should_be_大驼峰.style = 大驼峰
+dotnet_naming_rule.方法_should_be_帕斯卡.severity = warning
+dotnet_naming_rule.方法_should_be_帕斯卡.symbols = 方法
+dotnet_naming_rule.方法_should_be_帕斯卡.style = 帕斯卡
 
-dotnet_naming_rule.属性_should_be_大驼峰.severity = warning
-dotnet_naming_rule.属性_should_be_大驼峰.symbols = 属性
-dotnet_naming_rule.属性_should_be_大驼峰.style = 大驼峰
+dotnet_naming_rule.属性_should_be_帕斯卡.severity = warning
+dotnet_naming_rule.属性_should_be_帕斯卡.symbols = 属性
+dotnet_naming_rule.属性_should_be_帕斯卡.style = 帕斯卡
 
-dotnet_naming_rule.公开字段_should_be_大驼峰.severity = warning
-dotnet_naming_rule.公开字段_should_be_大驼峰.symbols = 公开字段
-dotnet_naming_rule.公开字段_should_be_大驼峰.style = 大驼峰
+dotnet_naming_rule.公开字段_should_be_帕斯卡.severity = warning
+dotnet_naming_rule.公开字段_should_be_帕斯卡.symbols = 公开字段
+dotnet_naming_rule.公开字段_should_be_帕斯卡.style = 帕斯卡
 
-dotnet_naming_rule.公开静态字段_should_be_大驼峰.severity = warning
-dotnet_naming_rule.公开静态字段_should_be_大驼峰.symbols = 公开静态字段
-dotnet_naming_rule.公开静态字段_should_be_大驼峰.style = 大驼峰
+dotnet_naming_rule.公开静态字段_should_be_帕斯卡.severity = warning
+dotnet_naming_rule.公开静态字段_should_be_帕斯卡.symbols = 公开静态字段
+dotnet_naming_rule.公开静态字段_should_be_帕斯卡.style = 帕斯卡
 
-dotnet_naming_rule.私有静态字段_should_be_以___开头大驼峰.severity = warning
-dotnet_naming_rule.私有静态字段_should_be_以___开头大驼峰.symbols = 私有静态字段
-dotnet_naming_rule.私有静态字段_should_be_以___开头大驼峰.style = 以___开头大驼峰
+dotnet_naming_rule.私有静态字段_should_be_以___开头帕斯卡.severity = warning
+dotnet_naming_rule.私有静态字段_should_be_以___开头帕斯卡.symbols = 私有静态字段
+dotnet_naming_rule.私有静态字段_should_be_以___开头帕斯卡.style = 以___开头帕斯卡
 
-dotnet_naming_rule.私有_内部_受保护字段_should_be_以___开头大驼峰.severity = warning
-dotnet_naming_rule.私有_内部_受保护字段_should_be_以___开头大驼峰.symbols = 私有_内部_受保护字段
-dotnet_naming_rule.私有_内部_受保护字段_should_be_以___开头大驼峰.style = 以___开头大驼峰
+dotnet_naming_rule.私有_内部_受保护字段_should_be_以___开头帕斯卡.severity = warning
+dotnet_naming_rule.私有_内部_受保护字段_should_be_以___开头帕斯卡.symbols = 私有_内部_受保护字段
+dotnet_naming_rule.私有_内部_受保护字段_should_be_以___开头帕斯卡.style = 以___开头帕斯卡
 
-dotnet_naming_rule.静态方法_should_be_大驼峰.severity = warning
-dotnet_naming_rule.静态方法_should_be_大驼峰.symbols = 静态方法
-dotnet_naming_rule.静态方法_should_be_大驼峰.style = 大驼峰
+dotnet_naming_rule.静态方法_should_be_帕斯卡.severity = warning
+dotnet_naming_rule.静态方法_should_be_帕斯卡.symbols = 静态方法
+dotnet_naming_rule.静态方法_should_be_帕斯卡.style = 帕斯卡
 
-dotnet_naming_rule.委托_should_be_大驼峰.severity = warning
-dotnet_naming_rule.委托_should_be_大驼峰.symbols = 委托
-dotnet_naming_rule.委托_should_be_大驼峰.style = 大驼峰
+dotnet_naming_rule.委托_should_be_帕斯卡.severity = warning
+dotnet_naming_rule.委托_should_be_帕斯卡.symbols = 委托
+dotnet_naming_rule.委托_should_be_帕斯卡.style = 帕斯卡
 
-dotnet_naming_rule.事件_should_be_以_event_结尾大驼峰.severity = warning
-dotnet_naming_rule.事件_should_be_以_event_结尾大驼峰.symbols = 事件
-dotnet_naming_rule.事件_should_be_以_event_结尾大驼峰.style = 以_event_结尾大驼峰
+dotnet_naming_rule.事件_should_be_以_event_结尾帕斯卡.severity = warning
+dotnet_naming_rule.事件_should_be_以_event_结尾帕斯卡.symbols = 事件
+dotnet_naming_rule.事件_should_be_以_event_结尾帕斯卡.style = 以_event_结尾帕斯卡
 
-dotnet_naming_rule.局部变量_should_be_小驼峰.severity = warning
-dotnet_naming_rule.局部变量_should_be_小驼峰.symbols = 局部变量
-dotnet_naming_rule.局部变量_should_be_小驼峰.style = 小驼峰
+dotnet_naming_rule.局部变量_should_be_驼峰.severity = warning
+dotnet_naming_rule.局部变量_should_be_驼峰.symbols = 局部变量
+dotnet_naming_rule.局部变量_should_be_驼峰.style = 驼峰
 
 dotnet_naming_rule.常量_should_be_以___间隔全部大写.severity = warning
 dotnet_naming_rule.常量_should_be_以___间隔全部大写.symbols = 常量
 dotnet_naming_rule.常量_should_be_以___间隔全部大写.style = 以___间隔全部大写
 
-dotnet_naming_rule.参数_should_be_小驼峰.severity = warning
-dotnet_naming_rule.参数_should_be_小驼峰.symbols = 参数
-dotnet_naming_rule.参数_should_be_小驼峰.style = 小驼峰
+dotnet_naming_rule.参数_should_be_驼峰.severity = warning
+dotnet_naming_rule.参数_should_be_驼峰.symbols = 参数
+dotnet_naming_rule.参数_should_be_驼峰.style = 驼峰
 
 # 符号规范
 
@@ -291,32 +291,32 @@ dotnet_naming_symbols.参数.required_modifiers =
 
 # 命名样式
 
-dotnet_naming_style.大驼峰.required_prefix = 
-dotnet_naming_style.大驼峰.required_suffix = 
-dotnet_naming_style.大驼峰.word_separator = 
-dotnet_naming_style.大驼峰.capitalization = pascal_case
+dotnet_naming_style.帕斯卡.required_prefix = 
+dotnet_naming_style.帕斯卡.required_suffix = 
+dotnet_naming_style.帕斯卡.word_separator = 
+dotnet_naming_style.帕斯卡.capitalization = pascal_case
 
-dotnet_naming_style.以_i_开头.required_prefix = I
-dotnet_naming_style.以_i_开头.required_suffix = 
-dotnet_naming_style.以_i_开头.word_separator = 
-dotnet_naming_style.以_i_开头.capitalization = pascal_case
+dotnet_naming_style.以_i_开头帕斯卡.required_prefix = I
+dotnet_naming_style.以_i_开头帕斯卡.required_suffix = 
+dotnet_naming_style.以_i_开头帕斯卡.word_separator = 
+dotnet_naming_style.以_i_开头帕斯卡.capitalization = pascal_case
 
-dotnet_naming_style.以___开头大驼峰.required_prefix = _
-dotnet_naming_style.以___开头大驼峰.required_suffix = 
-dotnet_naming_style.以___开头大驼峰.word_separator = 
-dotnet_naming_style.以___开头大驼峰.capitalization = pascal_case
+dotnet_naming_style.以___开头帕斯卡.required_prefix = _
+dotnet_naming_style.以___开头帕斯卡.required_suffix = 
+dotnet_naming_style.以___开头帕斯卡.word_separator = 
+dotnet_naming_style.以___开头帕斯卡.capitalization = pascal_case
 
-dotnet_naming_style.小驼峰.required_prefix = 
-dotnet_naming_style.小驼峰.required_suffix = 
-dotnet_naming_style.小驼峰.word_separator = 
-dotnet_naming_style.小驼峰.capitalization = camel_case
+dotnet_naming_style.驼峰.required_prefix = 
+dotnet_naming_style.驼峰.required_suffix = 
+dotnet_naming_style.驼峰.word_separator = 
+dotnet_naming_style.驼峰.capitalization = camel_case
 
 dotnet_naming_style.以___间隔全部大写.required_prefix = 
 dotnet_naming_style.以___间隔全部大写.required_suffix = 
 dotnet_naming_style.以___间隔全部大写.word_separator = _
 dotnet_naming_style.以___间隔全部大写.capitalization = all_upper
 
-dotnet_naming_style.以_event_结尾大驼峰.required_prefix = 
-dotnet_naming_style.以_event_结尾大驼峰.required_suffix = Event
-dotnet_naming_style.以_event_结尾大驼峰.word_separator = 
-dotnet_naming_style.以_event_结尾大驼峰.capitalization = pascal_case
+dotnet_naming_style.以_event_结尾帕斯卡.required_prefix = 
+dotnet_naming_style.以_event_结尾帕斯卡.required_suffix = Event
+dotnet_naming_style.以_event_结尾帕斯卡.word_separator = 
+dotnet_naming_style.以_event_结尾帕斯卡.capitalization = pascal_case
