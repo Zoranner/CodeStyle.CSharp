@@ -187,9 +187,13 @@ dotnet_naming_rule.公开字段_should_be_大驼峰.severity = warning
 dotnet_naming_rule.公开字段_should_be_大驼峰.symbols = 公开字段
 dotnet_naming_rule.公开字段_should_be_大驼峰.style = 大驼峰
 
-dotnet_naming_rule.静态字段_should_be_大驼峰.severity = warning
-dotnet_naming_rule.静态字段_should_be_大驼峰.symbols = 静态字段
-dotnet_naming_rule.静态字段_should_be_大驼峰.style = 大驼峰
+dotnet_naming_rule.公开静态字段_should_be_大驼峰.severity = warning
+dotnet_naming_rule.公开静态字段_should_be_大驼峰.symbols = 公开静态字段
+dotnet_naming_rule.公开静态字段_should_be_大驼峰.style = 大驼峰
+
+dotnet_naming_rule.私有静态字段_should_be_以___开头大驼峰.severity = warning
+dotnet_naming_rule.私有静态字段_should_be_以___开头大驼峰.symbols = 私有静态字段
+dotnet_naming_rule.私有静态字段_should_be_以___开头大驼峰.style = 以___开头大驼峰
 
 dotnet_naming_rule.私有_内部_受保护字段_should_be_以___开头大驼峰.severity = warning
 dotnet_naming_rule.私有_内部_受保护字段_should_be_以___开头大驼峰.symbols = 私有_内部_受保护字段
@@ -261,9 +265,13 @@ dotnet_naming_symbols.公开字段.applicable_kinds = field
 dotnet_naming_symbols.公开字段.applicable_accessibilities = public
 dotnet_naming_symbols.公开字段.required_modifiers = 
 
-dotnet_naming_symbols.静态字段.applicable_kinds = field
-dotnet_naming_symbols.静态字段.applicable_accessibilities = public, internal, private, protected, protected_internal, private_protected
-dotnet_naming_symbols.静态字段.required_modifiers = static
+dotnet_naming_symbols.公开静态字段.applicable_kinds = field
+dotnet_naming_symbols.公开静态字段.applicable_accessibilities = public
+dotnet_naming_symbols.公开静态字段.required_modifiers = static
+
+dotnet_naming_symbols.私有静态字段.applicable_kinds = field
+dotnet_naming_symbols.私有静态字段.applicable_accessibilities = internal, private, protected, protected_internal, private_protected
+dotnet_naming_symbols.私有静态字段.required_modifiers = static
 
 dotnet_naming_symbols.私有_内部_受保护字段.applicable_kinds = field
 dotnet_naming_symbols.私有_内部_受保护字段.applicable_accessibilities = internal, private, protected, protected_internal, private_protected
